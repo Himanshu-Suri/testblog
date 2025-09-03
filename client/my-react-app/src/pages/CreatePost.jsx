@@ -40,9 +40,7 @@ export default function CreatePost() {
         <button type="submit" className="bg-blue-500 text-white px-4 py-2">
           Create Post
         </button>
-        <button onClick={() => console.log("Button clicked!")}>Test</button>
-
-      </form>
+    </form>
     </div>
   );
 }

@@ -56,6 +56,12 @@ export default function Home() {
           </div>
         ))
       )}
+      <button
+                onClick={() => navigate("/create")}
+                className="bg-blue-500 px-2 py-1 text-white rounded"
+              >
+                Create more blogs!!!
+              </button>
     </div>
   );
 }
